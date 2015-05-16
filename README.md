@@ -2,6 +2,8 @@
 
 # EZlogger
 
+![build_status](https://travis-ci.org/zerosignal0/ezlogger.svg?branch=master)
+
 The purpose of this module is to provide python developers the ability to have an easy to use, standardized library to use for all their logging needs.  Currently the library is able to initialize capture of STDERR/STDOUT in a colored CLI based upon log type along with automatic log streaming to a file as well.
 
 The code base can be found : [here](https://github.com/zerosignal0/ezlogger/blob/master/README.md)
