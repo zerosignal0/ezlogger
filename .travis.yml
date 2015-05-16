@@ -8,6 +8,9 @@ python:
   - "nightly"
 
 # command to install dependencies
-install: "python setup.py build"
+install:
+  - python setup.py build
+  - python setup.py install
+
 # command to run tests
 script: python tests/testme.py
