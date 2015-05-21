@@ -6,7 +6,7 @@ ezlogger - The purpose of this module is to provide python scripters a very easy
 """
 from setuptools import setup
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 dependencies = [
     "rainbow_logging_handler",
@@ -28,7 +28,10 @@ setup(
     classifiers=[
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python',
     ],
 )
