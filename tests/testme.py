@@ -2,14 +2,6 @@
 """
 Unit test the ezlogger library.
 """
-import os
-import sys
-
-# Append parent directory in order to access the configuration files from the parent dir.
-CUR_DIR_PATH = os.path.dirname(os.path.realpath(__file__))
-PARENT_DIR_PATH = os.path.abspath(os.path.join(CUR_DIR_PATH, os.pardir))
-
-sys.path.append(os.path.join(PARENT_DIR_PATH, 'ezlogger'))
 
 def test_import():
     # Assert you can import the library
